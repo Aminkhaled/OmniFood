@@ -7,7 +7,6 @@ html{
   background-color: #fff;
   color: #555;
   font-size: 20px;
-  font-family: Arial,sans-serif;
   font-weight: 300;
   text-rendering: optimizeLegibility;
   margin: 0;
@@ -28,6 +27,10 @@ reusable Code
 .row{
   width: 1140px;
   margin: 0 auto;
+}
+
+section{
+  padding: 60px 0;
 }
 
 .btn,.btn:link,.btn:visited{
@@ -125,3 +128,55 @@ padding: 10px 0;
   border-bottom: 2px solid #e67e22;
 }
 
+/*
+==============
+   Features
+==============
+*/
+
+.section-features h2,h3{
+  text-align: center;
+  font-size: 160%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: rgba(31,31,31,.8);
+}
+
+.section-features h3{
+  font-size: 110%;
+  text-align: left;
+}
+
+.section-features i{
+ font-size: 320%;
+  color: #e67e22;
+margin:0 auto;display: block;
+}
+
+.section-features h2:after{
+  background-color: #e67e22;
+  width: 80px;
+  display: block;
+  height: 3px;
+margin: 0 auto; 
+  margin-top:30px ;
+  content: "";
+}
+
+.long-text{
+  text-align: center;
+  margin: 30px 0;
+  color: rgba(31,31,31,.8);
+  line-height: 140%;
+  width: 70%;
+  margin-left: 15%;
+
+}
+.box p{
+  text-align: left;
+  line-height: 140%;
+  font-size: 90%;
+}
