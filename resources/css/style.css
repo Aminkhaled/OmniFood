@@ -374,3 +374,46 @@ header {
 }
 
 
+/*===================*/
+/* Cities*/
+/*===================*/
+
+.section-testimonials{
+    background-image:linear-gradient(rgba(31,31,31,.8),rgba(31,31,31,.7)),url("img/back-customers.jpg");
+    height: 90vh;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+
+
+blockquote{
+    font-style: italic;
+      line-height: 140%;  
+    position: relative;
+}
+
+blockquote:before{
+    content:"\201C";
+    display: block;
+    font-size: 80px;
+    color: white;
+    top: -6px;
+    position: absolute;
+    left: 0;
+}
+
+ cite{
+    font-size: 90%;
+    margin-top: 25px;
+     display: block;
+}
+ 
+ cite img{
+     height:50px;
+     border-radius: 50%;
+     border: 1px solid #e67e22;
+     vertical-align: middle;
+     margin-right: 15px;
+ }
